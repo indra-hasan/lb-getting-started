@@ -16,5 +16,9 @@
   "CoffeeShop": {
     "dataSource": "mysql-lb",
     "public": true
+  },
+  "CoffeeMenu": {
+    "dataSource": "mysql-lb",
+    "public": true
   }
 }
