@@ -1,0 +1,10 @@
+{
+  "loopback-component-explorer": {
+    "mountPath": "/explorer",
+    "generateOperationScopedModels": true
+  },
+  "loopback-seed": {
+    "datasource": "mysql-lb",
+    "fakerLocale": "en"
+  }
+}

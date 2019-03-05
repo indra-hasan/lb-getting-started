@@ -1,0 +1,12 @@
+{
+  "mysql-lb": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "lb-getting-started",
+    "password": "",
+    "name": "mysql-lb",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
