@@ -9,19 +9,6 @@
     "table": "coffee_shops"
   },
   "properties": {
-    "id": {
-      "type": "Number",
-      "id": true,
-      "required": false,
-      "mysql": {
-        "columnName": "id",
-        "dataType": "int",
-        "dataLength": 10,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "N"
-      }  
-    },
     "name": {
       "type": "string",
       "required": true,
@@ -38,7 +25,7 @@
       "type": "string",
       "required": true,
       "mysql": {
-        "columnName":"city",
+        "columnName": "city",
         "dataType": "varchar",
         "dataLength": 255,
         "dataPrecision": null,
@@ -47,7 +34,7 @@
       }
     },
     "createdAt": {
-      "type":"date",
+      "type": "date",
       "required": false,
       "mysql": {
         "columnName": "created_at",
@@ -59,7 +46,7 @@
       }
     },
     "updatedAt": {
-      "type":"date",
+      "type": "date",
       "required": false,
       "mysql": {
         "columnName": "updated_at",

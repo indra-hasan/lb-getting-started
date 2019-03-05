@@ -15,10 +15,14 @@
   },
   "CoffeeShop": {
     "dataSource": "mysql-lb",
-    "public": true
+    "public": false
   },
   "CoffeeMenu": {
     "dataSource": "mysql-lb",
+    "public": false
+  },
+  "CoffeeService": {
+    "dataSource": null,
     "public": true
   }
 }

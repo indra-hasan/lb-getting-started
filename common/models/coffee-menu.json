@@ -9,19 +9,6 @@
     "table": "coffee_menus"
   },
   "properties": {
-    "id": {
-      "type": "Number",
-      "id": true,
-      "required": false,
-      "mysql": {
-        "columnName": "id",
-        "dataType": "int",
-        "dataLength": 10,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "N"
-      }  
-    },
     "name": {
       "type": "string",
       "required": true,
@@ -34,12 +21,12 @@
         "nullable": "N"
       }
     },
-    "coffeeId": {
+    "coffeShopId": {
       "type": "number",
       "mysql": {
-        "columnName": "coffee_id",
+        "columnName": "coffe_shop_id",
         "dataType": "int",
-        "dataLength": null,
+        "dataLength": 10,
         "dataPrecision": null,
         "dataScale": null,
         "nullable": "N"
@@ -58,7 +45,7 @@
       }
     },
     "createdAt": {
-      "type":"date",
+      "type": "date",
       "required": false,
       "mysql": {
         "columnName": "created_at",
@@ -70,7 +57,7 @@
       }
     },
     "updatedAt": {
-      "type":"date",
+      "type": "date",
       "required": false,
       "mysql": {
         "columnName": "updated_at",
