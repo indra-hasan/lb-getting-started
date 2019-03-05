@@ -5,14 +5,70 @@
   "options": {
     "validateUpsert": true
   },
+  "mysql": {
+    "table": "coffee_shops"
+  },
   "properties": {
+    "id": {
+      "type": "Number",
+      "id": true,
+      "required": false,
+      "mysql": {
+        "columnName": "id",
+        "dataType": "int",
+        "dataLength": 10,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }  
+    },
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "mysql": {
+        "columnName": "name",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
     },
     "city": {
       "type": "string",
-      "required": true
+      "required": true,
+      "mysql": {
+        "columnName":"city",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "createdAt": {
+      "type":"date",
+      "required": false,
+      "mysql": {
+        "columnName": "created_at",
+        "dataType": "dateTime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "updatedAt": {
+      "type":"date",
+      "required": false,
+      "mysql": {
+        "columnName": "updated_at",
+        "dataType": "dateTime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
     }
   },
   "validations": [],
